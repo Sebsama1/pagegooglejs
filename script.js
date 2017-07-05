@@ -6,4 +6,7 @@ $(document).ready(function(){
           $(this).remove();
       });
 
+
+
 });
+setTimeout(alert("hello"),5000);
