@@ -5,4 +5,5 @@ $(document).ready(function(){
     $(document).on('click', '#bouton', function() {
           $(this).remove();
       });
+
 });
