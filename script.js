@@ -6,7 +6,8 @@ $(document).ready(function(){
           $(this).remove();
       });
 
-
-
-});
-setTimeout(alert("hello"),5000);
+    $('#rech').click(function(){
+var test = document.getElementById('bar').value;
+        window.open('https://www.google.fr/#q='+test.replace(' ','+'));
+    })
+})
